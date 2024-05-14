@@ -252,5 +252,5 @@ one_hot_train_samples = one_hot_train_samples.astype('int16')
 train_labels = np.array(list(train_labels))
 train_labels = train_labels.astype('int16')
 
-np.save(f'/home/mark_bromell/Human/donor_one_hot_train_samples_{acceptor_seq_len1}nt_intergenicnegs_total_ssmiddle.npy', one_hot_train_samples)
-np.save(f'/home/mark_bromell/Human/donor_train_labels_{acceptor_seq_len1}nt_intergenicnegs_total_ssmiddle.npy', train_labels)
+np.save(f'donor_one_hot_train_samples_{acceptor_seq_len1}nt_intergenicnegs_total_ssmiddle.npy', one_hot_train_samples)
+np.save(f'donor_train_labels_{acceptor_seq_len1}nt_intergenicnegs_total_ssmiddle.npy', train_labels)
